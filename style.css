@@ -2,9 +2,14 @@ body{
     display: flex;
     flex-direction: column;
 }
-
+/*back ground color for sec 1 and footer*/
 .sec1, .footer{
     background-color: #1F2937;
+}
+
+/*background color for Quote div*/
+.sec3{
+    background-color: #E5E7EB;
 }
 
 /*Styling for sec 1*/
@@ -34,5 +39,24 @@ a, .secondary-text{
     border-radius: 6px;
     border: none;
     padding: 8px 22px;
+}
+
+/*Styling for sec 2*/
+
+.random-info-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.random-img{
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.random-subtext{
+    font-size: 18px;
 }
 
