@@ -68,6 +68,19 @@ a, .secondary-text{
     font-size: 18px;
 }
 
+/*Styling for sec 3*/
+
+.quote{
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.author{
+    font-weight: bold;
+    font-size: 24px;
+}
+
 /*Styling for sec 4*/
 
 .sec4-button{
