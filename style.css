@@ -12,6 +12,12 @@ body{
     background-color: #E5E7EB;
 }
 
+/*background color for sec 4*/
+
+.sec4{
+    background-color: #3882F6;
+}
+
 /*Styling for sec 1*/
 
 .logo{
@@ -31,7 +37,9 @@ a, .secondary-text{
     color: #F9FAF8;
 }
 
-.signup-first {
+/*both button styling is here */
+
+.signup-first, .sec4-button {
     background-color: #3882F6;
     color: #F9FAF8;
     font-size: 18px;
@@ -60,3 +68,26 @@ a, .secondary-text{
     font-size: 18px;
 }
 
+/*Styling for sec 4*/
+
+.sec4-button{
+    border: 2px solid #F9FAF8;
+}
+
+.sec4-title{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.sec4-paragraph{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/*Styling for footer*/
+
+.footer-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
