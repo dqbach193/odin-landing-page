@@ -37,6 +37,16 @@ a, .secondary-text{
     color: #F9FAF8;
 }
 
+.sec1-img{
+    width: 300px;
+}
+
+/*making flex for sec 1*/
+
+.header{
+    display: flex;
+}
+
 /*both button styling is here */
 
 .signup-first, .sec4-button {
