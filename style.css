@@ -51,7 +51,7 @@ ul li{
 
 .header{
     display: flex;
-    padding: 0px 30px;
+    padding: 0px 50px;
     justify-content: space-between;
     align-items: center;
 }
@@ -63,7 +63,11 @@ ul li{
 
 .sec1-body{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 50px;
 }
+
 /*both button styling is here */
 
 .signup-first, .sec4-button {
