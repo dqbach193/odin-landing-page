@@ -50,11 +50,15 @@ ul li{
 
 .header{
     display: flex;
+    padding: 0px 30px;
     justify-content: space-between;
     align-items: center;
 }
 
-
+.header-links{
+    display: flex;
+    gap: 8px;
+}
 /*both button styling is here */
 
 .signup-first, .sec4-button {
