@@ -46,6 +46,7 @@ a, .secondary-text{
 ul li{
     list-style: none;
 }
+
 /*making flex for sec 1*/
 
 .header{
@@ -57,7 +58,11 @@ ul li{
 
 .header-links{
     display: flex;
-    gap: 8px;
+    gap: 16px;
+}
+
+.sec1-body{
+    display: flex;
 }
 /*both button styling is here */
 
