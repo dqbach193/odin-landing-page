@@ -104,11 +104,21 @@ ul li{
 
 .sec2{
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     margin-top: 50px;
+    text-align: center;
+    padding: 0px 20px;
 }
 
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-info{
+    width: 240px;
+}
 
 /*Styling for sec 3*/
 
