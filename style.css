@@ -115,7 +115,7 @@ ul li{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 50px 0px;
+    margin: 30px 0px;
 }
 
 .card-info{
@@ -133,6 +133,21 @@ ul li{
 .author{
     font-weight: bold;
     font-size: 24px;
+}
+
+/*making flex for sec3 */
+
+.sec3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 100px;
+    height: 400px;
+}
+
+.author{
+    margin-left: auto;
 }
 
 /*Styling for sec 4*/
@@ -158,6 +173,8 @@ ul li{
     font-size: 18px;
     color: #E5E7EB;
 }
+
+/*making flex for footer*/
 
 .footer{
     display: flex;
