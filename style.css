@@ -1,0 +1,14 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header,.header ul,.content,.footer{
+    display: flex;
+}
+
+.header li{
+    list-style-type: none;
+}
