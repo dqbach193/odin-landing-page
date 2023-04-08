@@ -1,3 +1,4 @@
+/*Positioning goes here*/
 body{
     margin: 0px;
     padding: 0px;
@@ -17,6 +18,12 @@ body{
 .header ul{
     gap: 10px;
 }
+
+.content{
+    flex: 1;
+}
+
+/*Styling goes here*/
 
 .header li{
     list-style-type: none;
@@ -41,7 +48,7 @@ body{
 .hero-paragraph,.header a{
     text-decoration: none;
     font-size: 18px;
-    color: #F9FAF8;
+    color: #E5E7EB;
 }
 
 .content{
