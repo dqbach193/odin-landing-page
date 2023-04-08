@@ -19,8 +19,9 @@ body{
     gap: 10px;
 }
 
-.content{
-    flex: 1;
+.footer{
+    align-items: center;
+    justify-content: center;
 }
 
 /*Styling goes here*/
