@@ -9,12 +9,39 @@ body{
     display: flex;
 }
 
+.header{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header ul{
+    gap: 10px;
+}
+
 .header li{
     list-style-type: none;
 }
 
 .header,.hero,.footer{
     background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header-logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.hero-title{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-paragraph,.header a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #F9FAF8;
 }
 
 .content{
