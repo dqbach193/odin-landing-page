@@ -24,26 +24,16 @@ body{
     justify-content: center;
 }
 
-/*Styling goes here*/
-
-.header li{
-    list-style-type: none;
+.content{
+    flex-direction: column;
 }
 
+/*Styling goes here*/
+
+/*General styling*/
 .header,.hero,.footer{
     background-color: #1F2937;
     color: #F9FAF8;
-}
-
-.header-logo{
-    font-size: 24px;
-    font-weight: bold;
-    color: #F9FAF8;
-}
-
-.hero-title{
-    font-size: 48px;
-    font-weight: bolder;
 }
 
 .hero-paragraph,.header a{
@@ -52,6 +42,24 @@ body{
     color: #E5E7EB;
 }
 
-.content{
-    flex-direction: column;
+/*Header styling*/
+.header li{
+    list-style-type: none;
+}
+
+.header-logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+/*Hero styling*/
+
+.hero-title{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.footer{
+    height: 50px;
 }
