@@ -12,3 +12,11 @@ body{
 .header li{
     list-style-type: none;
 }
+
+.header,.hero,.footer{
+    background-color: #1F2937;
+}
+
+.content{
+    flex-direction: column;
+}
