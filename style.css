@@ -6,7 +6,7 @@ body{
     flex-direction: column;
 }
 
-.header,.header ul,.content,.footer{
+.header,.header ul,.content,.footer,.hero,.hero-text{
     display: flex;
 }
 
@@ -16,6 +16,18 @@ body{
 }
 
 .header ul{
+    gap: 10px;
+}
+
+.hero{
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.hero-text{
+    flex-direction: column;
     gap: 10px;
 }
 
@@ -62,4 +74,29 @@ body{
 
 .footer{
     height: 50px;
+}
+
+.hero img{
+    flex: 1 1 auto;
+    width: 250px;
+}
+
+.hero-text{
+    flex: 3;
+}
+
+.hero{
+    padding: 20px 120px;
+}
+
+/*Button styling*/
+
+button{
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #3882F5;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
 }
