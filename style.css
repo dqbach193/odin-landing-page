@@ -6,16 +6,16 @@ body{
     flex-direction: column;
 }
 
-.header,.header ul,.content,.footer,.hero,.hero-text{
+.header,.header ul,.content,.footer,.hero,.hero-text,.card-container{
     display: flex;
 }
 
-.header{
+.header,.card-container{
     justify-content: space-around;
     align-items: center;
 }
 
-.header ul{
+.header ul,.card-container{
     gap: 10px;
 }
 
@@ -29,6 +29,20 @@ body{
 .hero-text{
     flex-direction: column;
     gap: 10px;
+}
+
+.info-title{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.card{
+    text-align: center;
+}
+
+.card-container{
+    padding: 30px 10px;
+    flex-wrap: wrap;
 }
 
 .footer{
@@ -72,10 +86,6 @@ body{
     font-weight: bolder;
 }
 
-.footer{
-    height: 50px;
-}
-
 .hero img{
     flex: 1 1 auto;
     width: 250px;
@@ -89,6 +99,20 @@ body{
     padding: 20px 120px;
 }
 
+/*Info cards styling*/
+
+.card img{
+    width: 150px;
+    height: 150px;
+    border: #3882F5 solid;
+    border-radius: 10px;
+}
+
+.info-title{
+    font-size: 36px;
+    font-weight: bolder;
+}
+
 /*Button styling*/
 
 button{
@@ -99,4 +123,8 @@ button{
     font-size: 15px;
     font-weight: bolder;
     color: white;
+}
+
+.footer{
+    height: 50px;
 }
