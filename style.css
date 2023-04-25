@@ -10,6 +10,10 @@ body{
     display: flex;
 }
 
+.container{
+    flex: 1;
+}
+
 .header,.card-container{
     justify-content: space-around;
     align-items: center;
