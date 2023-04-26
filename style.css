@@ -7,7 +7,9 @@ body{
     flex-direction: column;
 }
 
-.header,.header ul,.content,.footer,.hero,.hero-text,.card-container,.quote{
+.header,.header ul,.content,
+.footer,.hero,.hero-text,.card-container,
+.quote,.call{
     display: flex;
 }
 
@@ -36,8 +38,11 @@ body{
     gap: 10px;
 }
 
+.info{
+    padding: 40px;
+}
+
 .info-title{
-    padding-top: 30px;
     text-align: center;
 }
 
@@ -53,11 +58,18 @@ body{
 .quote{
     flex-direction: column;
     gap: 10px;
-    padding: 50px 120px;
+    padding: 80px 120px;
 }
 
 .author{
     align-self: flex-end;
+}
+
+.call{
+    margin: 80px 120px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
 }
 
 .footer{
@@ -112,7 +124,7 @@ body{
 }
 
 .hero{
-    padding: 20px 120px;
+    padding: 80px 120px;
 }
 
 /*Info cards styling*/
@@ -146,13 +158,23 @@ body{
     font-weight: bolder;
 }
 
+/*Call to action Styling*/
+
+.call{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+}
+
+
+
 /*Button styling*/
 
 button{
     width: 100px;
     height: 35px;
     border-radius: 10px;
-    background-color: #3882F5;
+    background-color: #3882F6;
     font-size: 15px;
     font-weight: bolder;
     color: white;
