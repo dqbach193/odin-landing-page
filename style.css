@@ -7,7 +7,7 @@ body{
     flex-direction: column;
 }
 
-.header,.header ul,.content,.footer,.hero,.hero-text,.card-container{
+.header,.header ul,.content,.footer,.hero,.hero-text,.card-container,.quote{
     display: flex;
 }
 
@@ -46,8 +46,18 @@ body{
 }
 
 .card-container{
-    padding: 30px 10px;
+    padding: 30px 120px;
     flex-wrap: wrap;
+}
+
+.quote{
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px 120px;
+}
+
+.author{
+    align-self: flex-end;
 }
 
 .footer{
@@ -116,6 +126,23 @@ body{
 
 .info-title{
     font-size: 36px;
+    font-weight: bolder;
+}
+
+/*Quote Styling*/
+
+.quote{
+    background-color: #E5E7EB;
+}
+
+.full-quote{
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.author{
+    font-size: 18px;
     font-weight: bolder;
 }
 
