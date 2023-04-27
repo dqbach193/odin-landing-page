@@ -23,7 +23,7 @@ body{
 }
 
 .header ul,.card-container{
-    gap: 10px;
+    gap: 20px;
 }
 
 .hero{
@@ -31,6 +31,7 @@ body{
     align-items: center;
     gap: 50px;
     flex-wrap: wrap;
+    padding: 80px 20%;
 }
 
 .hero-text{
@@ -51,14 +52,14 @@ body{
 }
 
 .card-container{
-    padding: 30px 120px;
+    padding: 30px 20%;
     flex-wrap: wrap;
 }
 
 .quote{
     flex-direction: column;
     gap: 10px;
-    padding: 80px 120px;
+    padding: 80px 20%;
 }
 
 .author{
@@ -66,7 +67,7 @@ body{
 }
 
 .call{
-    margin: 80px 120px;
+    margin: 80px 20%;
     justify-content: space-between;
     align-items: center;
     padding: 50px 100px;
@@ -121,10 +122,6 @@ body{
 
 .hero-text{
     flex: 3;
-}
-
-.hero{
-    padding: 80px 120px;
 }
 
 /*Info cards styling*/
