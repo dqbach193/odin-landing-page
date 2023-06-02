@@ -131,6 +131,7 @@ body{
     height: 150px;
     border: #3882F5 solid;
     border-radius: 10px;
+    object-fit: cover;
 }
 
 .info-title{
